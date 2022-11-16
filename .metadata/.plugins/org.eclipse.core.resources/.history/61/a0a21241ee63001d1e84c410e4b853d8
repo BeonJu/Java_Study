@@ -1,0 +1,32 @@
+package Ex.chapter1_01;
+
+public class Member {
+	String isName = "";
+	static String isID = "";
+	static String isPassword = "";
+	int isAge = 0;
+	
+	public Member(String isName, String isID) {
+		// TODO Auto-generated constructor stub
+		this.isName = isName;
+		this.isID = isID;
+	}
+	public MemberService(String isID, String isPassword) {
+		Member.isID = isID;
+		Member.isPassword = isPassword;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Member user1 = new Member("홍길동","hong");
+	}
+
+	Member 
+	
+	public String login(String isID, int isPassword) {
+		boolean result = 
+	}
+
+
+
+}

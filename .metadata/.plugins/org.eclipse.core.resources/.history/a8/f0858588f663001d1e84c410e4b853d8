@@ -1,0 +1,17 @@
+package Ex.chapter1_01;
+
+public class MemberService {
+	String isID;
+	String isPassword;
+	
+	public MemberService() {
+	
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MemberService memberservice = new MemberService();
+		
+	}
+
+}

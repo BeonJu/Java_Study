@@ -1,0 +1,44 @@
+package Ex.chapter1_01;
+
+public class Member {
+	 String isName;
+	 String isID;
+	 String isPassword;
+	 int isAge;
+	
+
+	public Member(String isName, String isID, String isPassword, int isAge) {
+		// TODO Auto-generated constructor stub
+		this.isName = isName;
+		this.isID = isID;
+		this.isPassword = isPassword;
+		this.isAge = isAge;
+	}
+
+	public Member(String string, String string2) {
+		// TODO Auto-generated constructor stub
+		this.isName = string;
+		this.isID = string2;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Member user = new Member("김범주","Beom","12345",31);
+		Member user1 = new Member("홍길동","hong");
+		
+		System.out.println(user1.isName);
+		System.out.println(user1.isID);
+	}
+	public static void MemberService(String[] args) {
+		// TODO Auto-generated method stub
+		boolean login1(String id, String password) {
+			boolean result = 
+			
+			return result;
+	}
+	
+
+	
+	
+}
+}

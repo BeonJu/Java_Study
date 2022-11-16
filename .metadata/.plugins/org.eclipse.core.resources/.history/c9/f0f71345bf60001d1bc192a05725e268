@@ -1,0 +1,28 @@
+package Ex.chapter1_01;
+
+public class SringMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//			String ssn  = "910404122222";
+//			char gender = ssn.charAt(6);
+//			
+//			switch(gender) {
+//			case '1':
+//			case '3':
+//				System.out.println("남자");
+//				break;
+//			case '2':
+//			case '4':
+//				System.out.println("여자");
+//				break;
+//			}
+		
+		String old = "자바 문자열";
+		String newstr = old.replace("자바", "JAVA");
+		System.out.println(old);
+		System.out.println(newstr);
+	}
+
+}

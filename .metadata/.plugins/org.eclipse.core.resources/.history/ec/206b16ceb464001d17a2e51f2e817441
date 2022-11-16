@@ -1,0 +1,48 @@
+package ClassStatic;
+
+public class PracticeStatic {
+//	static double p = 3.14159;
+//	static String model = "cal";
+//	static String number = "1";
+//	static String info;
+////	Static을 붙여 준다면 스택과 힙 영역을 벗어나 개인적인 Static 영역에서 선언 된다.
+////	또 한 타 메소드, 타 클래스에서 접근 및 수정이 가능 하다.
+////	static 메소드에서는static변수만사용할수있다.
+////	static 메소드에서는인스턴스변수는사용할수없다.
+////	static 선언 과 동시에 값 초기화를 해주는걸 추천
+////	static {} 정적 필드 info 같이 static 필드 초기화를 위하여 사용
+//	static {
+//		info = model + "_" + number;
+//	}
+
+	// int speed는 인스턴스 필드
+	int speed;
+
+	// 인스턴스 메소드
+	void run() {
+		System.out.println(speed + "k/m으로 질주 중!");
+	}
+
+	// 정적 메소드
+	static void simulate() {
+//		클래스 안에서 정적 메소드에서 자기 자신인 클래스를 생성자 선언이 가능합니다.
+		PracticeStatic myCar = new PracticeStatic();
+
+		myCar.speed = 200;
+		myCar.run();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// main의 myCar 선언 전 이기 때문에 static Method의 simulate를 불러 온다.
+		simulate();
+		
+		PracticeStatic myCar = new PracticeStatic();
+		 
+		myCar.speed = 60;
+		myCar.run();
+		 
+		myCar.simulate();
+		simulate();
+	}
+}
