@@ -5,7 +5,10 @@ public class Smartphone extends Handphone {
 	public boolean wifi;
 	
 	//생성자
-	public Smartphone(String model, String color) {
+	public Smartphone(String model, String color) { // myPhone의 갤럭시, 은색 
+		
+		super(); // 부모생성자 호출      myPhone의 갤럭시, 은색 -> Smartphone 갤럭시, 은색 -> Handphone 갤럭시, 은색으로 가서 초기값 선언 및 거쳐온 모든 곳의 필드와 메소드를 사용 가능 
+		System.out.println("자식 생성자 호출");
 		this.model = model; //부모필드에 초기값을 준다.
 		this.color = color;
 	}

@@ -73,7 +73,7 @@ public class BankApplication2 {
 				accountMoney = Integer.parseInt(scan.nextLine());
 				
 				for (int i = 0; i < customers.length; i++) {
-					if (customers[i] != null) {
+					if (customers[i].getAccountNumber().equals(accountNumber)) {
 						customers[i].setCredit(customers[i].getCredit() + accountMoney);
 						break;
 						}
@@ -97,7 +97,7 @@ public class BankApplication2 {
 				accountMoney = Integer.parseInt(scan.nextLine());
 				
 				for (int i = 0; i < customers.length; i++) {
-					if (customers[i].getAccountNumber() == accountNumber) {
+					if (customers[i].getAccountNumber().equals(accountNumber)) {
 						customers[i].setCredit(customers[i].getCredit() - accountMoney);
 						break;}
 				}
