@@ -1,5 +1,0 @@
-package text.ex.p1;
-
-public class B {
-	A a = new A();  // A class 는 default로 지정 되어 있어 같은 패키지에서 사용 가능
-}

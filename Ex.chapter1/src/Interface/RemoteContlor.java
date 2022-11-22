@@ -11,7 +11,7 @@ public interface RemoteContlor {
 	void setVolume(int volume);
 	
 	
-//	디폴트 메소드: 인터페이스에서 실행 메소드를구현하고 싶을 때 사용
+//	디폴트 메소드: 인터페이스에서 실행 메소드를구현하고 싶을 때 사용0
 //	오버라이드시 반드시 public 접근 제한자를 붙여야 한다.
 	default void setMute(boolean mute) {
 		if(mute) {

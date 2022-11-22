@@ -3,6 +3,22 @@ package Ex.chapter1_01;
 public class operator {
 
 	public static void main(String[] args) {
+		String userinput = "NaN";
+		double val = Double.valueOf(userinput);
+		Double.isNaN(val); //true return
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		// TODO Auto-generated method stub
 
 //		증감 연산자	++, --	1순위

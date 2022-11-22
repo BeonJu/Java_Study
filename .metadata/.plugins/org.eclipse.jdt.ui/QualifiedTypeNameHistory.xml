@@ -11,4 +11,17 @@
     <fullyQualifiedTypeName name="test.protected1.A"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Coffe.CondimentDecorator"/>
+    <fullyQualifiedTypeName name="Coffe.Espresso"/>
+    <fullyQualifiedTypeName name="Coffe.Beverage"/>
+    <fullyQualifiedTypeName name="Coffe.DarkRoast"/>
+    <fullyQualifiedTypeName name="Coffe.Mocha"/>
+    <fullyQualifiedTypeName name="Coffe.Whip"/>
+    <fullyQualifiedTypeName name="Q.Ch8.DataAccessObject"/>
+    <fullyQualifiedTypeName name="Q.Ch8.OracleDao"/>
+    <fullyQualifiedTypeName name="Q.Ch8.MySqlDao"/>
+    <fullyQualifiedTypeName name="HomeWorkCoffeeShop.Beverage"/>
+    <fullyQualifiedTypeName name="HomeWorkCoffeeShop.Americano"/>
+    <fullyQualifiedTypeName name="OverlapClass.A.B"/>
+    <fullyQualifiedTypeName name="OverlapClass.AA.BB"/>
 </qualifiedTypeNameHistroy>
