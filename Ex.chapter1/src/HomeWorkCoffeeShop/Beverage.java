@@ -11,4 +11,11 @@ public interface Beverage {
 	void Takeout();
 //	주문 메뉴 명 return 메소스
 	void setMenuName(String name);
-}
+	// 주문 메뉴 가격 셋팅
+	void setMenuCost(int cost);
+	// 주문 완료 시 주문 번호 셋팅
+	void setOderNumber(int odernumber);
+
+	}
+
+

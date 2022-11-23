@@ -1,10 +1,10 @@
 package HomeWorkCoffeeShop;
 
-public class CafeMocha extends Coffees {
+public class CafeMochaIce extends Coffees {
 	private int cost = 2800;
-	public CafeMocha(String size) {
+	public CafeMochaIce(String size) {
 		setMenuName("카페모카");
-		setTemperatures("Hot");
+		setTemperatures("Ice");
 		setSize(size);
 		if(size =="S") {
 			setMenuCost(this.cost);
