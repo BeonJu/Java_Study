@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Ex.chapter1_01.MainStringArgs"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Ex.chapter1_01.Member"/>
     <fullyQualifiedTypeName name="text.ex.p1.B"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Q.ch6.Accounts"/>
     <fullyQualifiedTypeName name="Coffe.CondimentDecorator"/>
     <fullyQualifiedTypeName name="Coffe.Espresso"/>
@@ -33,7 +29,6 @@
     <fullyQualifiedTypeName name="Exception.Resource"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.InitialScreen"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.CoffeeList"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.DecafeinCoffee"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.DecafeinList"/>
@@ -42,4 +37,27 @@
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.AmericanoIce"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.CafeLatte"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.CafeLatteIce"/>
+    <fullyQualifiedTypeName name="Object.Member"/>
+    <fullyQualifiedTypeName name="Object.Student"/>
+    <fullyQualifiedTypeName name="Object.StmartPhone"/>
+    <fullyQualifiedTypeName name="Object.SmartPhone"/>
+    <fullyQualifiedTypeName name="Ch07.Smartphone"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.time.Clock"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="Constant.DateTime01"/>
+    <fullyQualifiedTypeName name="DateTime.DateTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="Constant.DateTime"/>
+    <fullyQualifiedTypeName name="Receipt.Receipt"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Object.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.TypeInfo"/>
+    <fullyQualifiedTypeName name="Constant.Cost"/>
+    <fullyQualifiedTypeName name="customer.project.Customer"/>
 </qualifiedTypeNameHistroy>
