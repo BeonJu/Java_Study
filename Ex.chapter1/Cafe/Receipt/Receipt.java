@@ -7,7 +7,7 @@ import Constant.DateTime;
 public class Receipt{
 
 	
-	public static void receipt(Amounts payment, int saleCNT, int pay) {
+	public static void receipt(Amounts payment, int beveragecount, int pay) {
 		System.out.println();
 		System.out.println();
 		System.out.println("	      영 	수 	 증		");
@@ -16,7 +16,7 @@ public class Receipt{
 		System.out.println("서울특별시 논현 이젠로12 1층		    ");
 		System.out.println("[POS 0521-484]		 " + DateTime.currentDateTime);
 		System.out.println("------------------------------------------------------");
-		System.out.println("("+payment.getSize()+")"+ payment.getMenuName()+"    "+ payment.getMenuCost() + "    " + saleCNT +"    " +payment.getAmountSum());
+		System.out.println("("+payment.getSize()+")"+ payment.getMenuName()+"    "+ payment.getMenuCost() + "    " + beveragecount +"    " +payment.getAmountSum());
 		System.out.println("------------------------------------------------------");
 		System.out.println("					과세금액 : " + (int)(payment.getMenuCost() * Cost.TaxableAmountRato));
 		System.out.println("					부 과 세 : " + (int)(payment.getMenuCost() * Cost.VATRato));
