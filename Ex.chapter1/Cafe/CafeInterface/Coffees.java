@@ -1,6 +1,5 @@
 package CafeInterface;
 
-import Amount.Amounts;
 import Constant.Cost;
 
 public class Coffees {
@@ -61,15 +60,15 @@ public class Coffees {
 		return this.MenuName;
 	}
 
-	public void setMenuCost(Amounts Guest) {
+	public void setMenuCost(Coffees beverageList) {
 		// 아메리카노, 아이스 아메리카노, 디카페인아메리카노, 디카페인아이스아메리카노 일때 아메리카노 커피 가격 삽입
-		if (Guest.getMenuName().equals("아메리카노") || Guest.getMenuName().equals("아이스아메리카노")
-				|| Guest.getMenuName().equals("디카페인아메리카노") || Guest.getMenuName().equals("디카페인아이스아메리카노")) {
-			if (Guest.getSize().equals("S")) {
+		if (beverageList.getMenuName().equals("아메리카노") || beverageList.getMenuName().equals("아이스아메리카노")
+				|| beverageList.getMenuName().equals("디카페인아메리카노") || beverageList.getMenuName().equals("디카페인아이스아메리카노")) {
+			if (beverageList.getSize().equals("S")) {
 				this.cost = Cost.AmericanoSCost;
-			} else if (Guest.getSize().equals("M")) {
+			} else if (beverageList.getSize().equals("M")) {
 				this.cost = Cost.AmericanoMCost;
-			} else if (Guest.getSize().equals("L")) {
+			} else if (beverageList.getSize().equals("L")) {
 				this.cost = Cost.AmericanoLCost;
 			}
 		}

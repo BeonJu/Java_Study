@@ -1,16 +1,20 @@
 package Amount;
 
-import CafeInterface.Coffees;
+//import CafeInterface.Coffees;
 
-public class Amounts extends Coffees {
+public class Amounts {
 	// 총액을 저장할 변수
 	private int amountSum;
+	
 	// 할인 금액을 저장할 변수
 	private int discountAmount;
+	
 	// 합계 금액을 저장할 변수
 	private int totalAmount;
+	
 	// 받은 금액을 저장할 변수
 	private int paymentAmount;;
+	
 	// 거스름 금액을 저장할 변수
 	private int changeAmount;
 	
@@ -36,8 +40,9 @@ public class Amounts extends Coffees {
 		return totalAmount;
 	}
 
-	public void setTotalAmount(int totalAmount) {
-		this.totalAmount = totalAmount;
+	public void setTotalAmount() {
+		
+		this.totalAmount = this.amountSum - this.discountAmount;
 	}
 
 	public int getPaymentAmount() {
