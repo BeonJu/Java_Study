@@ -11,7 +11,7 @@ import Constant.DateTime;
 public class Receipt{
 
 	
-	public static void receipt(Amounts payment,ArrayList<Coffees> beverageList, int beveragecount, int pay) {
+	public static void receipt(Amounts payment,ArrayList<Coffees> beverageList, int pay) {
 		System.out.println();
 		System.out.println();
 		System.out.println("	      영 	수 	 증		");
@@ -21,9 +21,7 @@ public class Receipt{
 		System.out.println("[POS 0521-484]		 " + DateTime.currentDateTime);
 		System.out.println("------------------------------------------------------");
 		for(int i = 0; i < beverageList.size(); i++) {
-			System.out.println("("+beverageList.get(i).getSize()+")"+ beverageList.get(i).getMenuName()+"       "+ beverageList.get(i).getMenuCost() + "       " + beveragecount +"       " +beverageList.get(i).getMenuCost());
-	}
-		
+			System.out.println("("+beverageList.get(i).getSize()+")"+ beverageList.get(i).getMenuName()+"       "+ beverageList.get(i).getMenuCost() + "       " + beverageList.get(i).getOderCNT() +"       " +beverageList.get(i).getMenuCost());}
 		System.out.println("------------------------------------------------------");
 		System.out.println("					과세금액 : " + (int)(payment.getAmountSum() * Cost.TaxableAmountRato));
 		System.out.println("					부 과 세 : " + (int)(payment.getAmountSum() * Cost.VATRato));

@@ -8,7 +8,7 @@ public class Coffees {
 	private String Size;
 	private String MenuName;
 	private int cost;
-	private int oderNumber;
+	private int oderCNT;
 
 //	public void setTemperatures(String temp) {
 //		// TODO Auto-generated method stub
@@ -45,10 +45,6 @@ public class Coffees {
 		return this.Size;
 	}
 
-	public void Takeout() {
-		// TODO Auto-generated method stub
-		System.out.println("포장");
-	}
 
 	public void setMenuName(String name) {
 		// TODO Auto-generated method stub
@@ -80,14 +76,15 @@ public class Coffees {
 		return this.cost;
 	}
 
-	public void setOderNumber(int odernumber) {
-		// TODO Auto-generated method stub
-		this.oderNumber += odernumber;
+	public int getOderCNT() {
+		return oderCNT;
 	}
 
-	public int getOderNumber() {
-		// TODO Auto-generated method stub
-		return this.oderNumber;
+	public void setOderCNT(int oderCNT) {
+		this.oderCNT = oderCNT;
 	}
+	
+	
+	
 
 }

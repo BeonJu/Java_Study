@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Constant.DateTime01"/>
-    <fullyQualifiedTypeName name="DateTime.DateTime"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="Constant.DateTime"/>
-    <fullyQualifiedTypeName name="Receipt.Receipt"/>
-    <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Object.StringBuilder"/>
@@ -33,7 +26,6 @@
     <fullyQualifiedTypeName name="Modeling.ch04.MainBoard"/>
     <fullyQualifiedTypeName name="Modeling.ch04.PowerSupply"/>
     <fullyQualifiedTypeName name="HomeWorkCoffeeShop.CoffeeShopKiosk"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="PaperTest01.Student"/>
     <fullyQualifiedTypeName name="PaperTest01.Cat"/>
     <fullyQualifiedTypeName name="PaperTest01.Animal"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="Generic5.HighStudent"/>
     <fullyQualifiedTypeName name="Generic5.MiddleStudent"/>
     <fullyQualifiedTypeName name="Generic5.Worker"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="Ch07.Child"/>
+    <fullyQualifiedTypeName name="CreditCalc.Score"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="CreditCalcInterface.GradeEvaluation"/>
+    <fullyQualifiedTypeName name="CreditCalc.Student"/>
+    <fullyQualifiedTypeName name="CreditCalc.Subject"/>
 </qualifiedTypeNameHistroy>

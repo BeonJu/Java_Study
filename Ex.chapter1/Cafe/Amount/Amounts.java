@@ -15,8 +15,6 @@ public class Amounts {
 	// 받은 금액을 저장할 변수
 	private int paymentAmount;;
 	
-	// 거스름 금액을 저장할 변수
-	private int changeAmount;
 	
 
 	public void setAmountSum(int amountSum) {
@@ -53,12 +51,5 @@ public class Amounts {
 		this.paymentAmount = paymentAmount;
 	}
 
-	public int getChangeAmount() {
-		return changeAmount;
-	}
-
-	public void setChangeAmount(int changeAmount) {
-		this.changeAmount = changeAmount;
-	}
 
 }
