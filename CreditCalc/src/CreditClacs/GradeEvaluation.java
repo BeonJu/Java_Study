@@ -1,4 +1,4 @@
-package CreditCalcInterface;
+package CreditClacs;
 
 public interface GradeEvaluation {
  public String getGrade(int point);

@@ -31,7 +31,7 @@ public class CoffeeShopKiosk {
 
 		// 강제 형 변환으로 확장
 		Coffees beverageList = new Coffees();
-		;
+		
 //		Guest = new Amounts();
 //		Amounts paymentCustomer = (Amounts)Guest;
 		Amounts customerAmount = new Amounts();

@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="Object.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.TypeInfo"/>
-    <fullyQualifiedTypeName name="customer.project.Customer"/>
-    <fullyQualifiedTypeName name="Beverage.Americano"/>
-    <fullyQualifiedTypeName name="Constant.Cost"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="Modeling.ch01.Student"/>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="Modeling.ch02.Student"/>
-    <fullyQualifiedTypeName name="java.rmi.StubNotFoundException"/>
-    <fullyQualifiedTypeName name="Modeling.ch03.Student"/>
-    <fullyQualifiedTypeName name="Modeling.ch03.Course"/>
-    <fullyQualifiedTypeName name="Modeling.ch03.Transcript"/>
-    <fullyQualifiedTypeName name="Modeling.ch03.Main"/>
     <fullyQualifiedTypeName name="Modeling.ch04.CPU"/>
     <fullyQualifiedTypeName name="Modeling.ch04.Memory"/>
     <fullyQualifiedTypeName name="Modeling.ch04.Computer"/>
@@ -56,8 +39,25 @@
     <fullyQualifiedTypeName name="Ch07.Child"/>
     <fullyQualifiedTypeName name="CreditCalc.Score"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="CreditCalcInterface.GradeEvaluation"/>
     <fullyQualifiedTypeName name="CreditCalc.Student"/>
     <fullyQualifiedTypeName name="CreditCalc.Subject"/>
+    <fullyQualifiedTypeName name="SingleTon.Printer"/>
+    <fullyQualifiedTypeName name="java.security.AccessControlContext"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="CreditClacs.GradeEvaluation"/>
+    <fullyQualifiedTypeName name="CreditClacs.BasicEvaluation"/>
+    <fullyQualifiedTypeName name="CreditClacs.MajorEvaluation"/>
+    <fullyQualifiedTypeName name="School.Subject"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+    <fullyQualifiedTypeName name="Utils.Define"/>
+    <fullyQualifiedTypeName name="School.Student"/>
+    <fullyQualifiedTypeName name="CreditCalcResult.CreditCalcResult"/>
+    <fullyQualifiedTypeName name="School.Score"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicGraphicsUtils"/>
+    <fullyQualifiedTypeName name="School.School"/>
 </qualifiedTypeNameHistroy>

@@ -61,7 +61,8 @@ public class GenerateGradeReport {
 		ArrayList<Score> scoreList = student.getScoreList(); //해당 학생이 수강한 과목의 점수리스트
 		int majorId = student.getMajorSubject().getSubjectId();
 		
-		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation()};  //학점 평가 클래스
+		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation()}; 
+		//학점 평가 클래스
 		
 		for(int i=0; i<scoreList.size(); i++){ 
 			
