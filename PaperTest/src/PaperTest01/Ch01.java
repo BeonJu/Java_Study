@@ -1,5 +1,9 @@
 package PaperTest01;
 
+
+
+import SingleTon.Printer;
+
 public class Ch01 {
 
 	
@@ -15,6 +19,8 @@ public class Ch01 {
 		System.out.println("결과 값: " + result);
 		
 		
+		//Jre 파일 Test
+		Printer p1;
 		
 	}
 
